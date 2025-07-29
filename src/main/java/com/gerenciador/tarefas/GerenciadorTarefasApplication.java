@@ -5,7 +5,6 @@ import org.springframework.boot.SpringApplication;
 public class GerenciadorTarefasApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(GerenciadorTarefasApplication.class);
     }
-
 }
