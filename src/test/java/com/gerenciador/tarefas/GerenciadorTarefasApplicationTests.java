@@ -1,10 +1,13 @@
 package com.gerenciador.tarefas;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-public class GerenciadorTarefasApplicationTests {
+@SpringBootTest
+class GerenciadorTarefasApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
+
 }

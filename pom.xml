@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gerenciador.tarefas</groupId>
-	<artifactId>gerenciador.tarefas</artifactId>
+	<artifactId>gerenciador-tarefas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gerenciador.tarefas</name>
+	<name>gerenciador-tarefas</name>
 	<description>Um aplicativo simples para gerenciar tarefas, os usuários podem adicionar, visualizar, atualizar e excluir tarefas de sua lista pessoal</description>
 	<url/>
 	<licenses>
@@ -30,23 +30,9 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
